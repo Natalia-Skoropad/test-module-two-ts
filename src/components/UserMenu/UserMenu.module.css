@@ -11,6 +11,7 @@
   background: rgba(255, 255, 255, 0.06);
   transition: background 0.2s ease, transform 0.08s ease;
 }
+
 .trigger:active {
   transform: translateY(1px);
 }
@@ -42,59 +43,3 @@
 .open .caret {
   transform: rotate(180deg);
 }
-
-/* dropdown */
-.menu {
-  position: absolute;
-  right: 0;
-  top: calc(100% + 8px);
-  min-width: 138px;
-  background: rgba(18, 14, 20, 0.95);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 12px;
-  padding: 8px;
-  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.4);
-  display: grid;
-  gap: 4px;
-}
-
-.item {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 8px 10px;
-  border-radius: 8px;
-  font-size: 14px;
-  opacity: 0.95;
-  transition: background 0.15s ease, opacity 0.15s ease;
-}
-.item:hover {
-  background: rgba(255, 255, 255, 0.06);
-  opacity: 1;
-}
-
-.sectionTitle {
-  padding: 6px 10px 2px;
-  font-size: 11px;
-  letter-spacing: 0.4px;
-  text-transform: uppercase;
-  opacity: 0.6;
-}
-
-.hr {
-  height: 1px;
-  background: linear-gradient(
-    90deg,
-    transparent,
-    rgba(255, 255, 255, 0.12),
-    transparent
-  );
-  margin: 6px 4px;
-}
-
-.logout {
-  margin-top: 4px;
-}
-
-
-

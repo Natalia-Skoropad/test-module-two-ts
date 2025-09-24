@@ -20,14 +20,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-:root[data-theme='light'] {
-  --color-scheme-1-background: #faf7ff;
-  --color-scheme-1-text: #1d1027;
-
-  --color-header-text: #fff;
-  --color-footer-text: #fff;
-  --color-menu-text: #fff;
-}
 html {
   scroll-behavior: smooth;
 }
