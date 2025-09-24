@@ -1,0 +1,19 @@
+.footer {
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(6, 3, 7, 0.8);
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+  padding-block: var(--space-4);
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+.small {
+  font-size: 12px;
+  opacity: 0.75;
+}
