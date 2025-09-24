@@ -23,10 +23,14 @@ function Header() {
         {isLoggedIn ? (
           <UserMenu />
         ) : (
-          <>
-            <a href="#">Login</a>
-            <a href="#">Register</a>
-          </>
+          <div className={css.auth}>
+            <a href="#" className={css.authBtn}>
+              Login
+            </a>
+            <a href="#" className={`${css.authBtn} ${css.register}`}>
+              Register
+            </a>
+          </div>
         )}
       </div>
     </header>
